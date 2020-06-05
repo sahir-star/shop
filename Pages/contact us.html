@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online-Store</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/about-contact.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../fontawesome-free-5.13.0-web/css/all.min.css">
+      
+        <style>
+           form{
+               margin: 50px;
+               background-color:  rgba(75, 77, 77, 0.452);
+           }
+           legend{
+               padding: 20px;
+           }
+           h1{
+               text-shadow: 2px 2px 3px white;
+           }
+        </style>
+    
+    </head>
+<body>
+     <!----- Logo ----->
+  <div class="container-fluid logo">
+    <a href="../index.html"><img src="../images/logo.png" alt=""></a>
+  </div>
+
+  <!-- Navigation-Bar -->
+  <div id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- <a class="navbar-brand" href="#">
+       <img src="../logo.png" alt="">
+      </a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+          <a class="nav-item nav-link" href="../index.html">Home</a>
+          <a class="nav-item nav-link" href="About Us.html">About Us</a>
+          <a class="nav-item nav-link" href="men's watches.html">Men's Watches</a>
+          <a class="nav-item nav-link" href="womans watches.html">Women's Watches</a>
+          <a class="nav-item nav-link" href="kids watches.html">Kid's Watches</a>
+          <a class="nav-item nav-link" href="contact us.html">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!------ contact-us ------>
+    <form class="container col-md-8">
+        <fieldset class="container">
+            <legend> <h1> Contact Us </h1></legend>
+            <div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                First Name :
+                <input type="text" class="form-control" placeholder="First name" required>
+              </div>
+              <div class="form-group col-md-6">
+                  Last Name :
+                <input type="text" class="form-control" placeholder="Last name" required>
+              </div>
+            </div>
+          
+          <div class="form-group col-md-6">
+            <label for="inputEmail4" >Email</label>
+            <input type="email" required class="form-control" placeholder="example@gmail.com" id="inputEmail4">
+          </div>
+        <div class="form-group">
+          <label for="inputAddress">Message</label><br>
+          <textarea name="text" required class="form-control" cols="60" rows="05"></textarea> 
+               </div>
+        
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" required class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" required class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" required class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </fieldset>
+      </form>
+
+  <!-- Footer -->
+
+  <div class="container-fluid footer">
+    <div class="container-fluid social">
+      <ul>
+        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      </ul>
+        </div>
+        <div class="copy">
+    © Copyright HTML.am | Privacy Policy
+    <br>
+    Desktop | Mobile Site 
+  </div>
+  </div>
+
+</body>
+</html>
